@@ -436,7 +436,7 @@ Ruby needs to be compiled with the `--enable shared` option.  Dynamic linking to
 
 If using RBENV then the following is recommended:
 
-    CONFIGURE_OPTS=--enable-shared rbenv install 2.6.3
+    RUBY_CONFIGURE_OPTS=--enable-shared rbenv install 2.6.3
 
 You can check if your Ruby is compiled to be dynamically linked to by running the following and getting a `"yes"` response.
 
